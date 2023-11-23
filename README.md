@@ -14,12 +14,10 @@ total data type: Float64(3), int(2), object(12)
 
 # Missing value
 **visualization**<br>
-![image](https://github.com/deeptudy/kaggle-glaucoma_detection_dataset/assets/103613730/aef7789f-1dd7-41d5-a7e7-5443a9facb24)
-
-![image](https://github.com/deeptudy/kaggle-glaucoma_detection_dataset/assets/103613730/c1c03f0d-824e-49b0-a5a0-ce0a6e18429f)
+![image](https://github.com/deeptudy/kaggle-glaucoma_detection_dataset/assets/103613730/aef7789f-1dd7-41d5-a7e7-5443a9facb24)<br>
 **percent**<br>
-Method 1
-
+![image](https://github.com/deeptudy/kaggle-glaucoma_detection_dataset/assets/103613730/c1c03f0d-824e-49b0-a5a0-ce0a6e18429f)<br>
+Method 1<br>
 Looking at the data, you can see that there are two types(Medical History, Medication Usage) of missing values.
 
 ->
