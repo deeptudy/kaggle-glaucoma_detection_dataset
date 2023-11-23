@@ -12,6 +12,10 @@ Total Index of column data : 10000
 
 total data type: Float64(3), int(2), object(12)
 
+**Histogram**
+![image](https://github.com/deeptudy/kaggle-glaucoma_detection_dataset/assets/103613730/d38438fb-616b-4aae-939c-6d4cec344b25)
+
+
 # Missing value
 **visualization**<br>
 ![image](https://github.com/deeptudy/kaggle-glaucoma_detection_dataset/assets/103613730/aef7789f-1dd7-41d5-a7e7-5443a9facb24)<br>
@@ -44,5 +48,19 @@ The age distribution of confirmed cases in the Age column is the same as the age
 
 # Final thoughts
 I think it's important to utilize other columns, such as Gender and Family History, as they have about 50% of the data.
+
+# train
+![image](https://github.com/deeptudy/kaggle-glaucoma_detection_dataset/assets/103613730/fd7f7f48-7d4d-4c4a-80f2-c2a5ed400b90)<br>
+feature_importances in RandomForest<br>
+
+Use scaler(Standard)<br>
+|Model|Hyper Parameters|Score|
+|------|---|---|
+|RandomForestClassifier|'clf__max_depth': 4, 'clf__n_estimators': 20|0.5261771166830792|
+|KNeighborsClassifier|'clf__n_neighbors': 10|0.5125835554467583|
+|SVC|'clf__C': 0.1, 'clf__gamma': 0.01|0.5132550906167025|
+|KMeans|'clf__n_clusters': 1|0.5030208946267557|
+
+The scores are miserable. I need to figure out if I made a mistake in the preprocessing or if it's just because the data distribution is similar across the board, and I'll tweak it a bit more next time I have time.
 
 
