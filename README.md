@@ -45,8 +45,7 @@ Sensitivity, Specificity, RNFL_Thickness, GCC_Thickness, Retinal_Volume, Macular
 The age distribution of confirmed cases in the Age column is the same as the age distribution of non-cases.<br>
 **Ratio of genders**
 ![image](https://github.com/deeptudy/kaggle-glaucoma_detection_dataset/assets/103613730/128f0acf-54c2-45b8-8a39-f2059ac29754)<br>
-
-# Final thoughts
+**Final thoughts**
 I think it's important to utilize other columns, such as Gender and Family History, as they have about 50% of the data.
 
 # train
